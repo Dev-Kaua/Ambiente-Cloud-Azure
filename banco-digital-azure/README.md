@@ -22,7 +22,7 @@ A ideia deste projeto é simular como essa aplicação poderia ser executada em 
 
 ### Diagrama de Arquitetura:
 
-![Diagrama da arquitetura](prints-azure/diagrama.png)
+![Diagrama da arquitetura](prints-azure/diagrama-uml.png)
 
 ### Print da criação do App Service:
 
