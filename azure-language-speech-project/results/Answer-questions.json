@@ -1,0 +1,43 @@
+{
+    "answers": [
+        {
+            "answer": "Python é uma linguagem de programação de alto nível muito popular, especialmente no desenvolvimento de aplicações de Inteligência Artificial e automação. Java é amplamente usado no backend de sistemas corporativos. JavaScript é essencial para o desenvolvimento frontend de aplicações web modernas.",
+            "confidenceScore": 0.4115065336227417,
+            "id": "id__823",
+            "answerSpan": {
+                "text": "Python",
+                "confidenceScore": 0.9849477,
+                "offset": 0,
+                "length": 6
+            },
+            "offset": 0,
+            "length": 297
+        },
+        {
+            "answer": "Java é amplamente usado no backend de sistemas corporativos. JavaScript é essencial para o desenvolvimento frontend de aplicações web modernas.",
+            "confidenceScore": 0.25532323122024536,
+            "id": "id__823",
+            "answerSpan": {
+                "text": "Java",
+                "confidenceScore": 0.8397034,
+                "offset": 0,
+                "length": 4
+            },
+            "offset": 154,
+            "length": 143
+        },
+        {
+            "answer": "JavaScript é essencial para o desenvolvimento frontend de aplicações web modernas.",
+            "confidenceScore": 0.1677103191614151,
+            "id": "id__823",
+            "answerSpan": {
+                "text": "JavaScript",
+                "confidenceScore": 0.99933547,
+                "offset": 0,
+                "length": 10
+            },
+            "offset": 215,
+            "length": 82
+        }
+    ]
+}
