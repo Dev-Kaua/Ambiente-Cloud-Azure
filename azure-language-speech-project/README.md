@@ -1,92 +1,107 @@
-# 🧠 Análise de Sentimentos com Azure Language & Speech Studio
+# Análise de Sentimentos com Azure AI Language Studio
 
-Este repositório contém a documentação e os experimentos realizados como parte do desafio de projeto "Análise de Sentimentos com Language Studio no Azure AI", proposto pela DIO.
-
-## 👨‍💻 Desenvolvido por
-
-**Kauã Reis**  
-Estudante de Análise e Desenvolvimento de Sistemas e entusiasta de soluções em IA, nuvem e tecnologia de ponta.
+> Projeto desenvolvido como parte do desafio de projeto da DIO utilizando o Azure AI Language Studio e Speech Studio para aplicar técnicas de **Processamento de Linguagem Natural (NLP)** e **Análise de Sentimentos**.
 
 ---
 
-## 🚀 Objetivo
+## 🔍 Visão Geral
 
-Explorar os serviços de IA oferecidos pela Microsoft através do **Azure Language Studio** e **Azure Speech Studio**, realizando testes práticos de:
+Este repositório documenta minha exploração prática das ferramentas **Azure Speech Studio** e **Azure Language Studio**. O objetivo foi testar diferentes funcionalidades relacionadas à linguagem natural, com foco em:
 
-- Análise de sentimentos e linguagem natural
-- Reconhecimento de fala e transcrição de áudio
-- Resposta automatizada de perguntas via QnA Maker
-- Interpretação de linguagem coloquial
-
----
-
-## 🧪 Tecnologias e Ferramentas
-
-- Microsoft Azure
-  - Language Studio
-  - Speech Studio
-- GitHub
-- Ferramenta de captura de tela (ex: Lightshot, Snipping Tool)
+* **Análise de Sentimentos**
+* **Reconhecimento de Fala (Speech-to-Text)**
+* **Resposta a Perguntas (Question Answering)**
+* **Interpretação de Linguagem Coloquial**
 
 ---
 
-## 🧠 Etapas Realizadas
+## 🎯 Objetivos do Desafio
 
-### 🎙️ 1. Teste com Speech Studio
-Utilizei o serviço de transcrição de voz para texto, gravando um áudio simples com uma frase positiva. O Azure foi capaz de identificar corretamente o conteúdo da fala, demonstrando uma ótima precisão.
-
-📸 **Print**:  
-speech_transcricao.png
+✅ Aplicar os conceitos aprendidos em um ambiente prático
+✅ Documentar o processo técnico de forma clara e estruturada
+✅ Utilizar o GitHub para compartilhar conhecimento técnico com a comunidade
 
 ---
 
-### 💬 2. Análise de Sentimentos com Language Studio
-Testei frases com diferentes cargas emocionais (positiva, negativa e neutra) para verificar o poder de análise do modelo.
+## 🧪 Experimentos Realizados
 
-📸 **Print**:  
-language_sentimentos.png
+Cada experimento foi realizado no **Azure Language Studio**, com o registro dos resultados em formato JSON e capturas de tela.
 
----
+### 1. `analise_sentimentos.json`
 
-### ❓ 3. Perguntas e Respostas com QnA
-Criei um pequeno repositório de perguntas e respostas simulando um atendimento automatizado, e testei como o sistema interpreta as perguntas do usuário.
+* **Objetivo:** Avaliar sentimentos (positivo, negativo ou neutro) com base em frases simples.
+* **Resultado:** A análise funcionou conforme o esperado, classificando corretamente as emoções presentes nas frases.
+* **1° Captura de tela:** `images/analise_sentimentos_positivo.png`
+* **2° Captura de tela:** `images/analise_sentimentos_negativo&neutro.png`
 
-📸 **Print**:  
-qna_respostas.png
+### 2. `Speech-to-text.json`
 
----
+* **Objetivo:** Transcrever áudio para texto com precisão.
+* **Resultado:** A ferramenta reconheceu corretamente a fala e transcreveu para texto sem dificuldades.
+* **Captura de tela:** `images/speech_to_text.png`
 
-### 😎 4. Teste com Linguagem Coloquial
-Utilizei gírias, abreviações e expressões populares brasileiras para ver como o modelo reagia a textos informais.
+### 3. `Answer-questions.json`
 
-📸 **Print**:  
-linguagem_coloquial.png
+* **Objetivo:** Responder perguntas com base em um texto fornecido.
+* **Resultado:** O sistema retornou respostas coerentes com base na entrada textual.
+* **Captura de tela:** `images/answer_questions.png`
 
----
+### 4. `Linguagem-coloquial.json`
 
-## 💡 Insights e Aprendizados
+* **Objetivo:** Analisar uma frase com linguagem informal/coloquial.
 
-> Durante a prática, percebi que os serviços do Azure são bastante intuitivos e funcionais. A análise de sentimentos funcionou muito bem com textos formais e informativos.  
-> Já quando utilizei linguagem mais solta, com gírias ou abreviações, notei que o modelo teve certa dificuldade de interpretação, o que abre espaço para pensar em formas de treinamento mais localizados ou customizações para públicos específicos.  
-> A experiência me fez enxergar o potencial de aplicações com foco em acessibilidade, atendimento automatizado e análise de opinião em larga escala.
+* **Entrada:** `"Mano, esse curso tá insano! Tô bolado com essa função que não roda kkk."`
 
----
+* **Resultado:** A IA interpretou a frase como **negativa**, com alta confiança, embora o contexto fosse ambíguo.
 
-## 📂 Estrutura do Repositório
+  **Interpretação:**
 
-```bash
-📁 azure-language-speech-project
-├── README.md
-├── /images
-│   ├── speech_transcricao.png
-│   ├── language_sentimentos.png
-│   ├── qna_respostas.png
-│   └── linguagem_coloquial.png
-└── insights.md (opcional)
+  > Apesar da expressão "insano" muitas vezes ter conotação positiva no uso informal, o modelo entendeu como negativa. Isso revela um ponto interessante sobre os desafios da análise de linguagem coloquial no NLP.
+
+* **Captura de tela:** `images/linguagem_coloquial.png`
+
+* **JSON salvo em:** `results/linguagem-coloquial.json`
 
 ---
 
-## ✅ Conclusão
-Esse projeto foi uma excelente introdução prática às ferramentas de IA da Microsoft, e serviu para reforçar conceitos importantes de NLP,
- reconhecimento de fala e integração com serviços cognitivos na nuvem. A prática me deixou ainda mais motivado a explorar esse universo e
- pensar em aplicações reais com essas tecnologias.
+## 📁 Organização do Repositório
+
+```
+├── images/
+│     ├── analise_sentimentos_positivo.png
+│     ├── analise_sentimentos_negativo&neutro.png
+│     ├── speech_to_text.png
+│     ├── answer_questions.png
+│     └── linguagem_coloquial.png
+├── results/
+│   ├── analise_sentimentos.json
+│   ├── Speech-to-text.json
+│   ├── Answer-questions.json
+│   └── Linguagem-coloquial.json
+└── README.md
+```
+
+---
+
+## 🤖 Considerações Finais
+
+A prática com essas ferramentas do Azure foi muito interessante para entender o poder (e as limitações) da inteligência artificial aplicada à linguagem. O experimento com linguagem coloquial foi o mais inesperado — e também o mais revelador.
+
+> "Aprender IA é como ensinar um robô a entender fofoca de grupo do WhatsApp... exige paciência e muitos testes!" 😄
+
+---
+
+## 📚 Recursos Úteis
+
+* [Azure Speech Studio](https://speech.microsoft.com/)
+* [Azure Language Studio](https://language.cognitive.azure.com/)
+* [Laboratórios Microsoft Learning](https://learn.microsoft.com/)
+
+---
+
+## 📌 Autor
+
+**Kauã Reis**
+Estudante de Análise e Desenvolvimento de Sistemas mergulhando no mundo da tecnologia, inteligência artificial e desenvolvimento backend. Sempre em busca do próximo nível! 🚀
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kauã_Reis-blue?logo=linkedin)](https://www.linkedin.com/in/kau%C3%A3-reis-rodrigues-730219357/)
