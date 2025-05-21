@@ -1,0 +1,257 @@
+[
+    {
+        "Id": "19e6017922774b9abc4bc036d1ea9498",
+        "RecognitionStatus": "Success",
+        "Offset": 5100000,
+        "Duration": 33600000,
+        "Channel": 0,
+        "DisplayText": "Hoje o dia está incrível, estou aprendendo Azure.",
+        "NBest": [
+            {
+                "Confidence": 0.8729265,
+                "Lexical": "hoje o dia está incrível estou aprendendo azure",
+                "ITN": "hoje o dia está incrível estou aprendendo azure",
+                "MaskedITN": "hoje o dia está incrível estou aprendendo azure",
+                "Display": "Hoje o dia está incrível, estou aprendendo Azure.",
+                "Words": [
+                    {
+                        "Word": "hoje",
+                        "Offset": 5100000,
+                        "Duration": 3200000
+                    },
+                    {
+                        "Word": "o",
+                        "Offset": 8300000,
+                        "Duration": 400000
+                    },
+                    {
+                        "Word": "dia",
+                        "Offset": 8700000,
+                        "Duration": 1600000
+                    },
+                    {
+                        "Word": "está",
+                        "Offset": 10300000,
+                        "Duration": 2400000
+                    },
+                    {
+                        "Word": "incrível",
+                        "Offset": 12700000,
+                        "Duration": 5200000
+                    },
+                    {
+                        "Word": "estou",
+                        "Offset": 24700000,
+                        "Duration": 3200000
+                    },
+                    {
+                        "Word": "aprendendo",
+                        "Offset": 27900000,
+                        "Duration": 4800000
+                    },
+                    {
+                        "Word": "azure",
+                        "Offset": 32700000,
+                        "Duration": 6000000
+                    }
+                ]
+            },
+            {
+                "Confidence": 0.8729265,
+                "Lexical": "hoje o dia está incrível estou aprendendo azure",
+                "ITN": "hoje o dia está incrível estou aprendendo azure",
+                "MaskedITN": "hoje o dia está incrível estou aprendendo azure",
+                "Display": "hoje o dia está incrível estou aprendendo azure",
+                "Words": [
+                    {
+                        "Word": "hoje",
+                        "Offset": 5100000,
+                        "Duration": 3200000
+                    },
+                    {
+                        "Word": "o",
+                        "Offset": 8300000,
+                        "Duration": 400000
+                    },
+                    {
+                        "Word": "dia",
+                        "Offset": 8700000,
+                        "Duration": 1600000
+                    },
+                    {
+                        "Word": "está",
+                        "Offset": 10300000,
+                        "Duration": 2400000
+                    },
+                    {
+                        "Word": "incrível",
+                        "Offset": 12700000,
+                        "Duration": 5200000
+                    },
+                    {
+                        "Word": "estou",
+                        "Offset": 24700000,
+                        "Duration": 3200000
+                    },
+                    {
+                        "Word": "aprendendo",
+                        "Offset": 27900000,
+                        "Duration": 4800000
+                    },
+                    {
+                        "Word": "azure",
+                        "Offset": 32700000,
+                        "Duration": 6000000
+                    }
+                ]
+            },
+            {
+                "Confidence": 0.8729265,
+                "Lexical": "hoje o dia está incrível estou aprendendo azure",
+                "ITN": "hoje o dia está incrível estou aprendendo azure",
+                "MaskedITN": "hoje o dia está incrível estou aprendendo azure",
+                "Display": "hoje o dia está incrível estou aprendendo azure",
+                "Words": [
+                    {
+                        "Word": "hoje",
+                        "Offset": 5100000,
+                        "Duration": 3200000
+                    },
+                    {
+                        "Word": "o",
+                        "Offset": 8300000,
+                        "Duration": 400000
+                    },
+                    {
+                        "Word": "dia",
+                        "Offset": 8700000,
+                        "Duration": 1600000
+                    },
+                    {
+                        "Word": "está",
+                        "Offset": 10300000,
+                        "Duration": 2400000
+                    },
+                    {
+                        "Word": "incrível",
+                        "Offset": 12700000,
+                        "Duration": 5200000
+                    },
+                    {
+                        "Word": "estou",
+                        "Offset": 24700000,
+                        "Duration": 3200000
+                    },
+                    {
+                        "Word": "aprendendo",
+                        "Offset": 27900000,
+                        "Duration": 4800000
+                    },
+                    {
+                        "Word": "azure",
+                        "Offset": 32700000,
+                        "Duration": 6000000
+                    }
+                ]
+            },
+            {
+                "Confidence": 0.8729265,
+                "Lexical": "hoje o dia está incrível estou aprendendo azure",
+                "ITN": "hoje o dia está incrível estou aprendendo azure",
+                "MaskedITN": "hoje o dia está incrível estou aprendendo azure",
+                "Display": "hoje o dia está incrível estou aprendendo azure",
+                "Words": [
+                    {
+                        "Word": "hoje",
+                        "Offset": 5100000,
+                        "Duration": 3200000
+                    },
+                    {
+                        "Word": "o",
+                        "Offset": 8300000,
+                        "Duration": 400000
+                    },
+                    {
+                        "Word": "dia",
+                        "Offset": 8700000,
+                        "Duration": 1600000
+                    },
+                    {
+                        "Word": "está",
+                        "Offset": 10300000,
+                        "Duration": 2400000
+                    },
+                    {
+                        "Word": "incrível",
+                        "Offset": 12700000,
+                        "Duration": 5200000
+                    },
+                    {
+                        "Word": "estou",
+                        "Offset": 24700000,
+                        "Duration": 3200000
+                    },
+                    {
+                        "Word": "aprendendo",
+                        "Offset": 27900000,
+                        "Duration": 4800000
+                    },
+                    {
+                        "Word": "azure",
+                        "Offset": 32700000,
+                        "Duration": 6000000
+                    }
+                ]
+            },
+            {
+                "Confidence": 0.8729265,
+                "Lexical": "hoje o dia está incrível estou aprendendo azure",
+                "ITN": "hoje o dia está incrível estou aprendendo azure",
+                "MaskedITN": "hoje o dia está incrível estou aprendendo azure",
+                "Display": "hoje o dia está incrível estou aprendendo azure",
+                "Words": [
+                    {
+                        "Word": "hoje",
+                        "Offset": 5100000,
+                        "Duration": 3200000
+                    },
+                    {
+                        "Word": "o",
+                        "Offset": 8300000,
+                        "Duration": 400000
+                    },
+                    {
+                        "Word": "dia",
+                        "Offset": 8700000,
+                        "Duration": 1600000
+                    },
+                    {
+                        "Word": "está",
+                        "Offset": 10300000,
+                        "Duration": 2400000
+                    },
+                    {
+                        "Word": "incrível",
+                        "Offset": 12700000,
+                        "Duration": 5200000
+                    },
+                    {
+                        "Word": "estou",
+                        "Offset": 24700000,
+                        "Duration": 3200000
+                    },
+                    {
+                        "Word": "aprendendo",
+                        "Offset": 27900000,
+                        "Duration": 4800000
+                    },
+                    {
+                        "Word": "azure",
+                        "Offset": 32700000,
+                        "Duration": 6000000
+                    }
+                ]
+            }
+        ]
+    }
+]
