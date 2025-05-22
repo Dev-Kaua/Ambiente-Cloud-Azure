@@ -44,7 +44,6 @@ As imagens abaixo demonstram as principais etapas da prática:
 |------|--------|
 | Painel do Azure Cognitive Search | ![Painel](images/painel-azure.png) |
 | Criação do serviço de busca | ![Criação](images/criacao-servico.png) |
-| Resultado de uma pesquisa com AI Search | ![Resultados](images/ai-search-resultados.png) |
 | Exploração de dados na interface | ![Exploração](images/exploracao-dados.png) |
 
 ---
