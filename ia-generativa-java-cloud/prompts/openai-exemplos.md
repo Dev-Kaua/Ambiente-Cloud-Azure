@@ -23,7 +23,7 @@ public void imprimirUsuarios(List<Usuario> lista) {
          .map(Usuario::getNome)
          .forEach(System.out::println);
 }
-###Comentário:
+### Comentário:
 Esse exemplo mostra a refatoração assistida de um código Java simples, transformando um loop tradicional em uma abordagem funcional com Stream API. A IA foi capaz de entender o objetivo do código e aplicar boas práticas idiomáticas do Java moderno. O código foi testado e funcionou perfeitamente.
 
 🧠 Exemplo 2 — Geração de Documentação Técnica (README.md)
@@ -56,7 +56,7 @@ Este projeto é uma simulação de um sistema bancário simples desenvolvido em 
 - `ContaPoupanca.java`
 - `Cliente.java`
 - `Main.java`
-###Comentário:
+### Comentário:
 Esse prompt foi utilizado para testar a capacidade da IA em gerar documentação técnica para projetos Java. O resultado foi bem estruturado, claro e utilizável na prática. Algumas adaptações manuais foram feitas para refletir exatamente a estrutura do projeto criado durante o curso.
 
 ✅ Conclusão
