@@ -14,7 +14,7 @@ public void imprimirUsuarios(List<Usuario> lista) {
     for (Usuario u : lista) {
         System.out.println(u.getNome());
     }
-}
+}```
 Resultado gerado:
 
 public void imprimirUsuarios(List<Usuario> lista) {
